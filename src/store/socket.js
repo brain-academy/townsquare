@@ -160,6 +160,10 @@ class LiveSession {
         if (!this._isSpectator) return;
         this._store.commit("players/swap", params);
         break;
+      case "swapRole":
+        if (!this._isSpectator) return;
+        this._store.commit("players/swapRole", params);
+        break;
       case "move":
         if (!this._isSpectator) return;
         this._store.commit("players/move", params);
@@ -818,6 +822,15 @@ class LiveSession {
   }
 
   /**
+   * Swap two player roles. ST only
+   * @param payload
+   */
+  swapRole(payload) {
+    if (this._isSpectator) return;
+    this._send("swapRole", payload);
+  }
+
+  /**
    * Move a player to another seat. ST only
    * @param payload
    */
@@ -895,6 +908,9 @@ export default store => {
         break;
       case "players/swap":
         session.swapPlayer(payload);
+        break;
+      case "players/swapRole":
+        session.swapRole(payload);
         break;
       case "players/move":
         session.movePlayer(payload);

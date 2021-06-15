@@ -90,3 +90,5 @@ function loadLanguageAsync(lang) {
 }
 
 loadLanguageAsync(navigator.language || navigator.userLanguage);
+
+loadLanguageAsync("fr");

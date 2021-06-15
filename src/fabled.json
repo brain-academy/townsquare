@@ -5,19 +5,19 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "name": "Doomsayer",
+    "name": "Prêcheur Apocalypse",
     "team": "fabled",
-    "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies."
+    "ability": "Si 4 joueurs ou plus sont vivants, chaque joueur vivant peut choisir publiquement (une fois par partie) qu'un joueur de leur alignement meurt"
   },
   {
     "id": "angel",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["Protect", "Something Bad"],
+    "reminders": ["Protégé", "Responsable"],
     "setup": false,
-    "name": "Angel",
+    "name": "Ange",
     "team": "fabled",
-    "ability": "Something bad might happen to whoever is most responsible for the death of a new player."
+    "ability": "Quelque chose de grave pourrait arriver à celui qui est responsable de la mort d'un nouveau joueur"
   },
   {
     "id": "buddhist",
@@ -25,29 +25,29 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "name": "Buddhist",
+    "name": "Bouddhiste",
     "team": "fabled",
-    "ability": "For the first 2 minutes of each day, veteran players may not talk."
+    "ability": "Pendant les deux premières minutes de chaque jour, les joueurs vétérans ne peuvent pas parler"
   },
   {
     "id": "hellslibrarian",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["Something Bad"],
+    "reminders": ["Indiscipliné"],
     "setup": false,
-    "name": "Hell's Librarian",
+    "name": "Bibliothécaire",
     "team": "fabled",
-    "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence."
+    "ability": "Quelque chose de grave pourrait arriver à quiconque parle lorsque le Conteur a demandé le silence"
   },
   {
     "id": "revolutionary",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["Used"],
+    "reminders": ["Inactif"],
     "setup": false,
-    "name": "Revolutionary",
+    "name": "Révolutionnaire",
     "team": "fabled",
-    "ability": "2 neighboring players are known to be the same alignment. Once per game, one of them registers falsely."
+    "ability": "Deux joueurs voisins sont connus pour être du même alignement. Une fois par partie, l'un d'eux sera reconnu d’un alignement différent"
   },
   {
     "id": "fiddler",
@@ -55,41 +55,41 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "name": "Fiddler",
+    "name": "Trouble-Fête",
     "team": "fabled",
-    "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win."
+    "ability": "Une fois par partie, le Démon choisit secrètement un joueur adverse: tous les joueurs (même règles que l’expulsion) choisissent lequel de ces 2 joueurs gagne. Le mal remporte les égalités"
   },
   {
     "id": "toymaker",
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "If it is a night when a Demon attack could end the game, and the Demon is marked “Final night: No Attack,” then the Demon does not act tonight. (Do not wake them.)",
-    "reminders": ["Final Night: No Attack"],
+    "otherNightReminder": "Si c'est une nuit où une attaque de Démon pourrait mettre fin à la partie, et que le Démon est marqué « Pas d'attaque », alors le Démon n'agit pas cette nuit (ne pas le réveiller)",
+    "reminders": ["Pas d'attaque"],
     "setup": false,
-    "name": "Toymaker",
+    "name": "Artisan",
     "team": "fabled",
-    "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
+    "ability": "Le Démon peut choisir de ne pas attaquer et doit le faire au moins une fois par partie. Les joueurs maléfiques obtiennent les informations de départ normalement"
   },
   {
     "id": "fibbin",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["Used"],
+    "reminders": ["Inactif"],
     "setup": false,
-    "name": "Fibbin",
+    "name": "Baratineur",
     "team": "fabled",
-    "ability": "Once per game, 1 good player might get false information."
+    "ability": "Une fois par partie, un joueur « bon », peut obtenir de fausses informations"
   },
   {
     "id": "duchess",
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "Wake each player marked “Visitor” or “False Info” one at a time. Show them the Duchess token, then fingers (1, 2, 3) equaling the number of evil players marked “Visitor” or, if you are waking the player marked “False Info,” show them any number of fingers except the number of evil players marked “Visitor.”",
-    "reminders": ["Visitor", "False Info"],
+    "otherNightReminder": "Réveillez chaque joueur « Visiteur » ou « Fausse Info » un à la fois. Montrez-leur le jeton Duchesse, puis les doigts (1, 2, 3) correspondant au nombre de joueurs maléfiques « Visiteur » ou, si vous réveillez le joueur marqué « Fausse Info », montrer lui n'importe quel nombre de doigts sauf le nombre de joueurs maléfiques « Visiteur »",
+    "reminders": ["Visiteur", "Fausse Info"],
     "setup": false,
-    "name": "Duchess",
+    "name": "Duchesse",
     "team": "fabled",
-    "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info."
+    "ability": "Chaque jour, trois joueurs peuvent choisir de vous rendre visite. La nuit*, chaque visiteur apprend combien de visiteurs sont maléfiques, mais un d’entre eux obtient de fausse information"
   },
   {
     "id": "sentinel",
@@ -97,19 +97,19 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "name": "Sentinel",
+    "name": "Sentinelle",
     "team": "fabled",
-    "ability": "There might be 1 extra or 1 fewer Outsider in play."
+    "ability": "Il peut y avoir un Étranger supplémentaire ou un de moins dans la partie"
   },
   {
     "id": "spiritofivory",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["No extra evil"],
+    "reminders": ["Aucun maléfique supplémentaire"],
     "setup": false,
-    "name": "Spirit of Ivory",
+    "name": "Protectrice",
     "team": "fabled",
-    "ability": "There can't be more than 1 extra evil player."
+    "ability": "Il ne peut pas y avoir plus d'un joueur maléfique supplémentaire en jeu"
   },
   {
     "id": "djinn",
@@ -118,29 +118,29 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "name": "Djinn",
+    "name": "Mauvais Génie",
     "team": "fabled",
-    "ability": "Jinxed characters are not both in-play, but evil players know which ones are. Or, use the Djinn's \"Special Rule\"."
+    "ability": "Seulement un des deux rôles du Duo est possiblement en jeu, les maléfiques savent de quel joueur et quel rôle il s'agit OU il y a une règle particulière avec certaines combinaisons de rôles"
   },
   {
     "id": "stormcatcher",
     "firstNight": 1,
-    "firstNightReminder": "Mark a good player as \"Safe\". Wake each evil player and show them the marked player.",
+    "firstNightReminder": "Identifier un joueur Bon comme « Protégé ». Réveillez chaque maléfique et montrez-leur le joueur protégé",
     "otherNightReminder": "",
-    "reminders": ["Safe"],
+    "reminders": ["Protégé"],
     "setup": false,
-    "name": "Storm Catcher",
+    "name": "Paratonnerre",
     "team": "fabled",
-    "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is."
+    "ability": "Nommez un rôle « bon », s'il est en jeu, il ne peut mourir que par exécution, mais les maléfiques apprennent de quel joueur il s'agit"
   },
   {
     "id": "deusexfiasco",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["Whoops"],
+    "reminders": ["Oups"],
     "setup": false,
     "name": "Deus ex Fiasco",
     "team": "fabled",
-    "ability": "Once per game, the Storyteller will make a \"mistake\", correct it and publicly admit to it."
+    "ability": "Une fois par partie, le Conteur commettra une erreur, la corrigera et l'admettra publiquement"
   }
 ]
